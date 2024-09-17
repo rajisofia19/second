@@ -1,0 +1,184 @@
+main{
+    background-color: hsl(0, 0%, 12%);
+    color: white;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.profile-image { 
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+/* .profile-image{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    border: 40px;
+    border-radius: 150px;
+
+} */
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+
+}
+
+.london{
+    color: hsl(75, 94%, 57%);
+    text-align: center;
+    margin-top: none;
+    font-size: 14px;
+}
+.front{
+    margin-top: 25px;
+    font-size: 14px;
+}
+.button-list{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+button{
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    border: none;
+    padding: 15px;
+    width: 330px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 15px
+    
+    
+    
+}
+button:hover{
+    background-color: hsl(75, 94%, 57%);
+    
+}
+@media screen and (max-width: 375px){
+    top: 50px;
+    main{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .profile-image { 
+        width: 70px;
+        height: auto;
+        border-radius: 50%;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: none;
+    
+    }
+    .london{
+        color: hsl(75, 94%, 57%);
+        text-align: center;
+        margin-top: none;
+        font-size: 14px;
+    }
+    .front{
+        margin-top: none;
+        font-size: 14px;
+    }
+    .button-list{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        gap: 5px;
+        flex-direction: column;
+        margin-bottom: 20px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    button{
+        padding: 17px;
+        width: 270px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        line-height: 9px
+    }
+}
+@media screen and (min-width: 376px) and (max-width: 1440px){
+    main{
+        /* top: 50px; */
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;  
+    }
+    .profile-image { 
+        width: 70px;
+        height: auto;
+        border-radius: 50%;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: none;
+    
+    }
+    
+    .london{
+        color: hsl(75, 94%, 57%);
+        text-align: center;
+        margin-top: none;
+        font-size: 14px;
+    }
+    .front{
+        margin-top: none;
+        font-size: 14px;
+    }
+    .button-list{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        gap: 5px;
+        flex-direction: column;
+        margin-bottom: 20px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    button{
+        padding: 17px;
+        width: 270px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        line-height: 9px
+    }
+}
